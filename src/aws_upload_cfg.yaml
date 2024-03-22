@@ -1,0 +1,8 @@
+local:
+  folder: ../data
+  file: null
+  extension: .csv
+s3:
+  bucket: dso599-data-lake-proj
+  folder: 'gen_data/'
+  
