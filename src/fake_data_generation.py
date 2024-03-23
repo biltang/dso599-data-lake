@@ -153,7 +153,7 @@ def generate_fake_data(n: int=10, faker_config: dict=None, unique_cols: set=None
     # save csv file down
     save_file_path = save_path + f'fake_data_{n}_sample.csv'
     logger.info(f'saving csv to {save_file_path}')
-    gen_data.to_csv(save_file_path)
+    gen_data.to_csv(save_file_path, index=False)
     
 
 def main() -> None:
