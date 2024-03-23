@@ -5,4 +5,7 @@ local:
 s3:
   bucket: dso599-data-lake-proj
   folder: 'gen_data/'
-  
+athena:
+  ddl_def: athena_create_table.ddl
+  database: dso599-data-lake-db
+  output_config_location: s3://dso599-data-lake-proj/athena_queries/
