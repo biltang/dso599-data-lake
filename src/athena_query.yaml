@@ -1,0 +1,5 @@
+athena:
+  query: query.sql
+  database: dso599-data-lake-db
+  tables: [fake_data_100000_sample, fake_data_1000000_sample, fake_data_5000000_sample, fake_data_10000000_sample]
+  output_location: s3://dso599-data-lake-proj/query_result/
